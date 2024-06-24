@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+    /* base styles */
+    * {
+      margin: 0;
+      font-family: "Quicksand";
+      color: #333;
+      padding: 0;
+    }
+    .navbar {
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      max-width: 600px;
+      margin: 0 auto;
+      border-bottom: 1px solid #f2f2f2;
+    }
+    .navbar h3 {
+      color: rgb(47, 128, 128);
+      
+    }
+    .navbar .links {
+      margin-left: auto;
+    }
+    .navbar a {
+      margin-left: 16px;
+      text-decoration: none;
+      padding: 6px;
+      color: black;
+      
+    }
+    .navbar a:hover {
+      color: rgb(47, 128, 128);
+    }
+    .main-content {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 50px 40px;
+      background-color: rgb(53, 198, 198);
+      border-radius: 8px;
+      margin-top: 5em;
+    }
+    .my-form h2{
+      text-align: center;
+      color: white;
+      font-size: 2em;
+    
+    }
+
+    .input-box {
+      box-sizing: border-box;
+      padding: 20px;
+      margin: 10px;
+      border: 1px solid white;
+      background: transparent;
+      border-radius: 40px;
+      width: 70%;
+      height: 50px;
+      outline: none;
+    }
+    .input-box::placeholder{
+      color: white;
+    }
+
+    .btn{
+      cursor: pointer;
+      background: transparent;
+      color: white;
+      margin: 10px;
+      padding: 5px;
+      border-radius: 40px;
+      border: 1px solid white;
+      width: 95%;
+      height: 50px;
+      font-size: 1em;
+      outline: none;
+      
+
+    }
+    .btn:hover{
+      color: rgb(7, 7, 7);
+      background-color: white;
+      z-index: -1;
+      transition: 0.8s;
+    }
+    
+    .register-link p, a{
+      color: white;
+      display: inline-block;
+      align-content: center;
+      
+    }
+    .register-link p a{
+      font-weight: bold;
+      text-decoration: underline;
+      
+    }
+   
+
+
